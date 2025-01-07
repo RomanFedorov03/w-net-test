@@ -82,3 +82,7 @@ php artisan serve
 
 Visit the application in your browser at `http://127.0.0.1:8000`.
 
+
+### 8. Access API Documentation
+
+The API documentation is available at: `http://127.0.0.1:8000/docs`
