@@ -1,0 +1,241 @@
+name: User
+description: ''
+endpoints:
+  -
+    httpMethods:
+      - POST
+    uri: api/create-user
+    metadata:
+      groupName: User
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Create User'
+      description: 'Даний метод використовується для створення нового клієнта.'
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      name:
+        name: name
+        description: 'User name.'
+        required: true
+        example: username
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      email:
+        name: email
+        description: 'User email.'
+        required: true
+        example: user@user.com
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      password:
+        name: password
+        description: 'User password'
+        required: false
+        example: 'G7wtY3b:Lq'
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+    cleanBodyParameters:
+      name: username
+      email: user@user.com
+      password: 'G7wtY3b:Lq'
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: |-
+          {
+               "data": {
+               "username": "test",
+               "phone": "0972142310",
+               "email": "test7@test.ua",
+               "language": "uk",
+               "theme": "light",
+               "deviceId": null,
+               "addresses": [
+                    {
+                         "address": "16943, Полтавська область, місто Полтава, просп. Урицького, 12",
+                         "status": "disable",
+                         "tariff": "Unlim 1000",
+                         "balance": "1274",
+                         "services": {
+                              "internet": "Unlim 1000",
+                              "tv": "omega 60",
+                              "ip": "10.10.10.10"
+                         }
+                    }
+               ]
+          },
+          "token": "14|qe4ditLS1QViqtpyDJiE7wWe6Gx28Cd6yvRWXSdU80b2a822"
+          }
+        headers: []
+        description: ''
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/login
+    metadata:
+      groupName: User
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: Login
+      description: 'Даний метод використовується для створення нового клієнта.'
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      email:
+        name: email
+        description: 'User email.'
+        required: true
+        example: user@user.com
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      password:
+        name: password
+        description: 'User password'
+        required: false
+        example: z65fXW$^sikCPb\u_0
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+    cleanBodyParameters:
+      email: user@user.com
+      password: z65fXW$^sikCPb\u_0
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: |-
+          {
+               "data": {
+               "username": "test",
+               "phone": "0972142310",
+               "email": "test7@test.ua",
+               "language": "uk",
+               "theme": "light",
+               "deviceId": null,
+               "addresses": [
+                    {
+                         "address": "16943, Полтавська область, місто Полтава, просп. Урицького, 12",
+                         "status": "disable",
+                         "tariff": "Unlim 1000",
+                         "balance": "1274",
+                         "services": {
+                              "internet": "Unlim 1000",
+                              "tv": "omega 60",
+                              "ip": "10.10.10.10"
+                         }
+                    }
+               ]
+          },
+          "token": "14|qe4ditLS1QViqtpyDJiE7wWe6Gx28Cd6yvRWXSdU80b2a822"
+          }
+        headers: []
+        description: ''
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: api/user-info
+    metadata:
+      groupName: User
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'User info'
+      description: 'Даний метод використовується для створення нового клієнта.'
+      authenticated: true
+      custom: []
+    headers:
+      Authorization: 'Bearer 15|WWIUnECvdhznR2mygR0iUUJCDT90QzzwjGuImC9f7780bb1f'
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: |-
+          {
+               "data": {
+               "username": "test",
+               "phone": "0972142310",
+               "email": "test7@test.ua",
+               "language": "uk",
+               "theme": "light",
+               "deviceId": null,
+               "addresses": [
+                    {
+                         "address": "16943, Полтавська область, місто Полтава, просп. Урицького, 12",
+                         "status": "disable",
+                         "tariff": "Unlim 1000",
+                         "balance": "1274",
+                         "services": {
+                              "internet": "Unlim 1000",
+                              "tv": "omega 60",
+                              "ip": "10.10.10.10"
+                         }
+                    }
+               ]
+          }
+          }
+        headers: []
+        description: ''
+        custom: []
+    responseFields: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer P5V6D16ad8ekcf4abhg3vZE'
+    controller: null
+    method: null
+    route: null
+    custom: []
