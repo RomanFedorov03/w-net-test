@@ -120,7 +120,7 @@ You can switch the language used with the tabs at the top right (or from the nav
 <p>
 </p>
 
-<p>Даний метод використовується для створення нового клієнта.</p>
+
 
 <span id="example-requests-POSTapi-create-user">
 <blockquote>Example request:</blockquote>
@@ -134,7 +134,7 @@ You can switch the language used with the tabs at the top right (or from the nav
     --data "{
     \"name\": \"username\",
     \"email\": \"user@user.com\",
-    \"password\": \"G7wtY3b:Lq\"
+    \"password\": \"m|A:r,1v8Rw+wJX=t\"
 }"
 </code></pre></div>
 
@@ -152,7 +152,7 @@ const headers = {
 let body = {
     "name": "username",
     "email": "user@user.com",
-    "password": "G7wtY3b:Lq"
+    "password": "m|A:r,1v8Rw+wJX=t"
 };
 
 fetch(url, {
@@ -293,10 +293,10 @@ You can check the Dev Tools console for debugging information.</code></pre>
 <i>optional</i> &nbsp;
                 <input type="text" style="display: none"
                               name="password"                data-endpoint="POSTapi-create-user"
-               value="G7wtY3b:Lq"
+               value="m|A:r,1v8Rw+wJX=t"
                data-component="body">
     <br>
-<p>User password Example: <code>G7wtY3b:Lq</code></p>
+<p>User password Example: <code>m|A:r,1v8Rw+wJX=t</code></p>
         </div>
         </form>
 
@@ -305,7 +305,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
 <p>
 </p>
 
-<p>Даний метод використовується для створення нового клієнта.</p>
+
 
 <span id="example-requests-POSTapi-login">
 <blockquote>Example request:</blockquote>
@@ -318,7 +318,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
     --header "Accept: application/json" \
     --data "{
     \"email\": \"user@user.com\",
-    \"password\": \"z65fXW$^sikCPb\\\\u_0\"
+    \"password\": \"?~Rc523e}IOW\"
 }"
 </code></pre></div>
 
@@ -335,7 +335,7 @@ const headers = {
 
 let body = {
     "email": "user@user.com",
-    "password": "z65fXW$^sikCPb\\u_0"
+    "password": "?~Rc523e}IOW"
 };
 
 fetch(url, {
@@ -465,10 +465,10 @@ You can check the Dev Tools console for debugging information.</code></pre>
 <i>optional</i> &nbsp;
                 <input type="text" style="display: none"
                               name="password"                data-endpoint="POSTapi-login"
-               value="z65fXW$^sikCPb\u_0"
+               value="?~Rc523e}IOW"
                data-component="body">
     <br>
-<p>User password Example: <code>z65fXW$^sikCPb\u_0</code></p>
+<p>User password Example: <code>?~Rc523e}IOW</code></p>
         </div>
         </form>
 
@@ -478,7 +478,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
 <small class="badge badge-darkred">requires authentication</small>
 </p>
 
-<p>Даний метод використовується для створення нового клієнта.</p>
+
 
 <span id="example-requests-GETapi-user-info">
 <blockquote>Example request:</blockquote>

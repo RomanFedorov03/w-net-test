@@ -11,7 +11,7 @@ endpoints:
       subgroup: ''
       subgroupDescription: ''
       title: 'Create User'
-      description: 'Даний метод використовується для створення нового клієнта.'
+      description: ''
       authenticated: false
       custom: []
     headers:
@@ -46,7 +46,7 @@ endpoints:
         name: password
         description: 'User password'
         required: false
-        example: 'G7wtY3b:Lq'
+        example: 'm|A:r,1v8Rw+wJX=t'
         type: string
         enumValues: []
         exampleWasSpecified: false
@@ -55,7 +55,7 @@ endpoints:
     cleanBodyParameters:
       name: username
       email: user@user.com
-      password: 'G7wtY3b:Lq'
+      password: 'm|A:r,1v8Rw+wJX=t'
     fileParameters: []
     responses:
       -
@@ -104,7 +104,7 @@ endpoints:
       subgroup: ''
       subgroupDescription: ''
       title: Login
-      description: 'Даний метод використовується для створення нового клієнта.'
+      description: ''
       authenticated: false
       custom: []
     headers:
@@ -129,7 +129,7 @@ endpoints:
         name: password
         description: 'User password'
         required: false
-        example: z65fXW$^sikCPb\u_0
+        example: '?~Rc523e}IOW'
         type: string
         enumValues: []
         exampleWasSpecified: false
@@ -137,7 +137,7 @@ endpoints:
         custom: []
     cleanBodyParameters:
       email: user@user.com
-      password: z65fXW$^sikCPb\u_0
+      password: '?~Rc523e}IOW'
     fileParameters: []
     responses:
       -
@@ -186,7 +186,7 @@ endpoints:
       subgroup: ''
       subgroupDescription: ''
       title: 'User info'
-      description: 'Даний метод використовується для створення нового клієнта.'
+      description: ''
       authenticated: true
       custom: []
     headers:
@@ -234,7 +234,7 @@ endpoints:
     auth:
       - headers
       - Authorization
-      - 'Bearer P5V6D16ad8ekcf4abhg3vZE'
+      - 'Bearer Va615DvPgeZ3hakEfd4cb86'
     controller: null
     method: null
     route: null

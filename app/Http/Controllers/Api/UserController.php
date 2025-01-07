@@ -16,8 +16,6 @@ class UserController extends Controller
     /**
      *  Login
      *
-     *  Даний метод використовується для створення нового клієнта.
-     *
      * @group User
      *
      * @param Request $request
@@ -74,7 +72,6 @@ class UserController extends Controller
     /**
      *  User info
      *
-     * Даний метод використовується для створення нового клієнта.
      * @authenticated
      *
      * @group User
@@ -113,8 +110,6 @@ class UserController extends Controller
 
     /**
      *  Create User
-     *
-     *  Даний метод використовується для створення нового клієнта.
      *
      * @group User
      *
